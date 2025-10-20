@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+  background-color: white;
+  transition: background-color 0.5s ease;
+}
+
+button {
+  height: 40px;
+  width: 80px;
+  margin: 10px;
+  font-size: medium;
+  font-weight: 700;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.Green {
+  background-color: #06e906;
+  color: white;
+}
+
+.Red {
+  background-color: #e90606;
+  color: white;
+}
+
+.Blue {
+  background-color: #0a06e9;
+  color: white;
+}
+
+.Reset {
+  background-color: white;
+  color: black;
+}
