@@ -1,0 +1,53 @@
+body {
+  background-color: aqua;
+}
+.container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Quotes {
+  border: 10px solid #8f8d11;
+  width: 90%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+.Quotes h1 {
+  margin: 5px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 20px;
+  height: 30px;
+  font-weight: 500;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .Quotes h1 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 320px) {
+  .Quotes h1 {
+    font-size: 18px;
+  }
+}
